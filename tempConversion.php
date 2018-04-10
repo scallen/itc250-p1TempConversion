@@ -2,7 +2,7 @@
 //tempConversion.php
 //P1: Temperature Conversion for ITC250 SP18
 //Coded by Scott Allen
-//tempConsersion.php has two select boxes for selecting the input temperature and output temperature
+//tempConversion.php has two select boxes for selecting the input temperature and output temperature
 //a textbox for inputing initial temperature value
 
 //start of temperature calculations

@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+
+@import url("fontawesome-4.6.3.min.css");
+@import url("framework.css");
+
+body {
+   
+}
+
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+#topbar{padding:15px 0; font-size:.8rem; text-transform:uppercase;}
+
+#topbar *{margin:0;}
+#topbar ul li{display:inline-block; margin-right:10px; padding-right:15px; border-right:1px solid;}
+#topbar ul li:last-child{margin-right:0; padding-right:0; border-right:none;}
+#topbar i{margin:0 5px 0 0; line-height:normal;}
+
+
+/* Header
+--------------------------------------------------------------------------------------------------------------- */
+#header h1, h2, p{
+    padding-left: 30px;
+}
+
+#header #logo{margin-top:25px;}
+#header #logo *{margin:0; padding:30; line-height:1;}
+#header #logo h1{font-size:22px; padding-left: 30px; font-variant:small-caps;}
+#header #logo p{font-size:12px; padding-left: 30px; text-transform:lowercase;}
+
+
+#calcbox {
+    width:300px;
+    float: none;
+    height:200px;
+    padding:20px;
+    background:#990000;
+}
+
+/* Page Intro
+--------------------------------------------------------------------------------------------------------------- */
+#pageintro{padding:150px 0;}
+
+#pageintro article{max-width:75%;}
+#pageintro article *{text-transform:uppercase;}
+#pageintro article .heading{margin:0 0 50px 0; padding-left:30; line-height:1; font-size:46px;}
+#pageintro article p{margin:0;}
+#pageintro article p:first-of-type{margin-bottom:35px; font-size:22px; letter-spacing:5px;}
+#pageintro article footer{margin-top:80px;}
+
+
+
+/* Footer
+--------------------------------------------------------------------------------------------------------------- */
+#footer{padding:80px 0;}
+
+#footer .title{margin:0 0 50px 0; padding:0; font-size:1.2rem;}
+
+#footer .linklist li{display:block; margin-bottom:15px; padding:0 0 15px 0; border-bottom:1px solid;}
+#footer .linklist li:last-child{margin:0; padding:0; border:none;}
+#footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
+#footer .linklist li, #footer .linklist li::after{clear:both;}
+
+#footer .contact{}
+#footer .contact.linklist li, #footer .contact.linklist li:last-child{position:relative; padding-left:40px;}
+#footer .contact li *{margin:0; padding:0; line-height:1.6;}
+#footer .contact li i{display:block; position:absolute; top:0; left:0; width:30px; font-size:16px; text-align:center;}
+
+
+/* Copyright
+--------------------------------------------------------------------------------------------------------------- */
+#copyright{padding:50px 0;}
+#copyright *{margin:0; padding:0;}
+
+
+/* Transition Fade
+--------------------------------------------------------------------------------------------------------------- */
+*, *::before, *::after{transition:all .3s ease-in-out;}
+#mainav form *{transition:none !important;}
+
+/* Colours
+--------------------------------------------------------------------------------------------------------------- */
+body{color:#CBCBCB; background-color:#000000;}
+a{color:#66CCCC;}
+a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
+hr, .borderedbox{border-color:#D7D7D7;}
+label span{color:#FF0000; background-color:inherit;}
+input:focus, textarea:focus, *:required:focus{border-color:#66CCCC;}
+.overlay{
+    max-width: 1100px;
+    color:#FFFFFF; 
+    background-color:inherit;}
+.overlay::after{
+    color:inherit; background-color:rgba(0,0,0,.3);}
+
+.inherit{color:inherit;}
+
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#66CCCC; border-color:#66CCCC;}
+.btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
+
+
+
+/* Rows */
+.row0, .row0 a{color:#CBCBCB; background-color:#000000;}
+.row1{color:#FFFFFF; background-color:rgba(255,255,255,.2);}
+.row2, .row2 a{}
+.row3{color:#474747; background-color:#FFFFFF;}
+.row4{color:#CBCBCB;}
+.row5{color:#676767; background-color:rgba(0,0,0,.5);}
+.row5 a{color:inherit;}
+
+
+/* Top Bar */
+#topbar ul li{border-color:rgba(255,255,255,.2);}
+#topbar > div:last-of-type li:first-child a{color:#66CCCC;}
+
+
+/* Header */
+#header #logo h1 a{color:inherit;}
+
+
+/* Footer */
+#footer .title{color:#FFFFFF;}
+#footer .linklist li{border-color:rgba(255,255,255,.2);}
+
